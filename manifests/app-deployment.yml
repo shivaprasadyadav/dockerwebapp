@@ -15,11 +15,9 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: mustafaflm.azurecr.io/app:128
+          image: shivap66/dockerwebapp:appimage
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: flm
 
 
 
